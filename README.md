@@ -10,12 +10,12 @@ The code is based on my paper:
 
 If you use this code in your research or project, please **cite the paper** above.
 
-Running the `test_nenmf.m` script performs a side-by-side comparison of **standard NMF** vs **randomized NMF** on synthetic data, under a time constraint (e.g. 60 seconds).
+Running the `demo.m` script performs a side-by-side comparison of **standard NMF** vs **randomized NMF** on synthetic data, under a time constraint (e.g. 60 seconds).
 
 The plot below shows the **Relative Reconstruction Error (RRE)** over time. The randomized version converges faster with comparable final error, highlighting the benefit of **sketching-based compression**:
 
 <div align="center">
-  <img src="results/rre_plot.png" width="600" alt="RRE vs Time: Standard vs Randomized NMF">
+  <img src="plotdemo.png" width="600" alt="RRE vs Time: Standard vs Randomized NMF">
 </div>
 
 ---
