@@ -4,8 +4,8 @@ This repository contains MATLAB code for efficient Non-negative Matrix Factoriza
 
 The code is based on my paper:
 
-> **F. Yahaya**, M. Puigt, G. Delmaire, and G. Roussel  
-> *Faster-than-fast NMF using random projections and Nesterov iterations*  
+> **F. Yahaya**, M. Puigt, G. Delmaire, and G. Roussel
+> *Faster-than-fast NMF using random projections and Nesterov iterations*
 > arXiv preprint [arXiv:1812.04315](https://arxiv.org/abs/1812.04315)
 
 If you use this code in your research or project, please **cite the paper** above.
@@ -18,6 +18,14 @@ The plot below shows the **Relative Reconstruction Error (RRE)** over time. The 
   <img src="plotdemo.png" width="600" alt="RRE vs Time: Standard vs Randomized NMF">
 </div>
 
+## Related publications
+
+This code is the algorithmic foundation for a series of papers on random-projection-accelerated NMF. The most comprehensive treatment is in the *IEEE TSP* 2024 journal article.
+
+- **F. Yahaya** *et al.*, "A framework for compressed weighted nonnegative matrix factorization," *IEEE Transactions on Signal Processing*, 2024.
+- **F. Yahaya** *et al.*, "Random projection streams for (weighted) nonnegative matrix factorization," *Proc. ICASSP*, 2021.
+- **F. Yahaya** *et al.*, "How to apply random projections to nonnegative matrix factorization with missing entries?," *Proc. EUSIPCO*, 2019.
+
 ---
 
 ## 📌 Citation
@@ -25,7 +33,23 @@ The plot below shows the **Relative Reconstruction Error (RRE)** over time. The 
 ```bibtex
 @article{yahaya2018faster,
   title={Faster-than-fast NMF using random projections and Nesterov iterations},
-  author={Yahaya, Farouk and Puigt, Matthieu and Delmaire, Guillaume and Roussel, Guillaume},
+  author={Yahaya, Farouk and Puigt, Matthieu and Delmaire, Gilles and Roussel, Gilles},
   journal={arXiv preprint arXiv:1812.04315},
   year={2018}
 }
+```
+
+For the journal version (recommended):
+
+```bibtex
+@article{yahaya2024framework,
+  title={A framework for compressed weighted nonnegative matrix factorization},
+  author={Yahaya, Farouk and Puigt, Matthieu and Delmaire, Gilles and Roussel, Gilles},
+  journal={IEEE Transactions on Signal Processing},
+  year={2024}
+}
+```
+
+## License
+
+MIT. See [LICENSE](LICENSE).

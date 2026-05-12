@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the journal paper below."
+title: "Randomized-NMF: random-projection accelerated weighted non-negative matrix factorization"
+authors:
+  - family-names: Yahaya
+    given-names: Farouk
+  - family-names: Puigt
+    given-names: Matthieu
+  - family-names: Delmaire
+    given-names: Gilles
+  - family-names: Roussel
+    given-names: Gilles
+repository-code: "https://github.com/FaroukYahaya/Randomized-NMF"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Yahaya
+      given-names: Farouk
+    - family-names: Puigt
+      given-names: Matthieu
+    - family-names: Delmaire
+      given-names: Gilles
+    - family-names: Roussel
+      given-names: Gilles
+  title: "A framework for compressed weighted nonnegative matrix factorization"
+  journal: "IEEE Transactions on Signal Processing"
+  year: 2024
